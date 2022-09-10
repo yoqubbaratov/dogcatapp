@@ -1,0 +1,59 @@
+name: dog_and_cat
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  gallery_saver: any
+  path_provider: any
+  # for design
+
+
+  # connect network
+  http: ^0.13.4
+  http_interceptor: ^1.0.2
+  connectivity_plus: any
+  share_plus: any
+  url_strategy: any
+
+  # database
+  hive_flutter: ^1.1.0
+
+  # image
+  cached_network_image: ^3.2.1
+  transparent_image: ^2.0.0
+  image_picker: ^0.8.5+3
+
+  # decoration
+  flutter_staggered_grid_view: ^0.6.2
+  lottie: ^1.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/lottie/
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
