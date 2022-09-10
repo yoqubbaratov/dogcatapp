@@ -1,16 +1,24 @@
-# dog_and_cat
+## 🤓 Author(s)
+**Yoqub**
 
-A new Flutter project.
 
-## Getting Started
+## ScreenShots
 
-This project is a starting point for a Flutter application.
+### Main Page
+<img src="screens/MainPage.png" height="500em" />
 
-A few resources to get you started if this is your first Flutter project:
+### All Cats and Dogs
+<img src="screens/AllCats.png" height="500em" />
+<img src="screens/AllDogs.png" height="500em" />
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Upload Page
+<img src="screens/CatsUpload.png" height="500em" />
+<img src="screens/UploadDog.png" height="500em" />
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Favourite Images
+<img src="screens/FavouritePage.png" height="500em" />
+
+
+
+### Search Pages
+<img src="screens/SearchPage.png" height="500em" />
