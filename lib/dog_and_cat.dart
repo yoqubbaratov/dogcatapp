@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 // enum  Options {CAT,DOG}
 
 class III {
-  static  bool? isCD;
+  static bool? isCD;
 }
 
 class DogsAndCats extends StatefulWidget {
@@ -17,7 +17,7 @@ class DogsAndCats extends StatefulWidget {
 class _DogsAndCatsState extends State<DogsAndCats> {
   void onDogPage() {
     setState(() {
-      III.isCD=false;
+      III.isCD = false;
     });
     Navigator.push(
         context, MaterialPageRoute(builder: (context) => const MainPage()));
@@ -30,6 +30,7 @@ class _DogsAndCatsState extends State<DogsAndCats> {
     Navigator.push(
         context, MaterialPageRoute(builder: (context) => const MainPage()));
   }
+
 
   @override
   Widget build(BuildContext context) {

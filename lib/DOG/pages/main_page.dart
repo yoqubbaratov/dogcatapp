@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:flutter/material.dart';
 
+import '../../dog_and_cat.dart';
 import 'home_page.dart';
 bool isConnected = true;
 class MainPage extends StatefulWidget {
@@ -19,13 +20,16 @@ class _MainPageState extends State<MainPage> {
 
 
 
+
   @override
   void initState() {
     super.initState();
     subscription = Connectivity().onConnectivityChanged.listen((ConnectivityResult connectivityResult) {
       print(connectivityResult);
+
     });
     checkStatus();
+
   }
 
 
@@ -34,7 +38,7 @@ class _MainPageState extends State<MainPage> {
     if(connectivityResult != ConnectivityResult.mobile  && connectivityResult != ConnectivityResult.wifi){
       setState(() {
         isConnected = false;
-        connectionStatus = "Please Turn on Mobile Network or Wi-Fi";
+        connectionStatus = "Iltimos Internet yoki WI FI tarmog'ingiz ulanganini tekshiring!!!";
       });
 
     }else{

@@ -6,6 +6,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
+import '../../dog_and_cat.dart';
 import 'category_page.dart';
 import 'mobile/home_screen.dart';
 import 'search_page.dart';
@@ -51,6 +52,9 @@ class _HomePageState extends State<HomePage> {
   Color _iconColor(int page) => _initialPage == page ? Colors.black : Colors.grey;
   double _iconSize(int page) => _initialPage == page ? 34 : 32;
 
+
+
+
   @override
   void initState() {
     super.initState();
@@ -64,6 +68,7 @@ class _HomePageState extends State<HomePage> {
         setState((){});
       }
     });
+
   }
 
   @override
